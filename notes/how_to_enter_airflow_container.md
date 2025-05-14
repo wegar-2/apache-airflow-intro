@@ -1,4 +1,4 @@
-# How to Enter Airflow Worker Container?
+# How to Enter Airflow Container?
 
 
 Start by running the following command:
@@ -28,3 +28,8 @@ In order to enter the worker, i.e. the `airflow_course_materials-airflow-worker-
 docker exec -it airflow_course_materials-airflow-worker-1 /bin/bash
 ```
 
+Note that you can enter a scheduler container analogously, that is 
+by running:
+```commandline
+docker exec -it airflow_course_materials-airflow-scheduler-1 /bin/bash
+```
